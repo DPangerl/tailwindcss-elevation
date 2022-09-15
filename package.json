@@ -1,0 +1,25 @@
+{
+  "name": "@dp/tailwindcss-elevation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  },
+  "keywords": [],
+  "author": "Daniel Pangerl",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "tailwind": "^4.0.0"
+  },
+  "dependencies": {
+    "tinycolor2": "^1.4.2"
+  }
+}
