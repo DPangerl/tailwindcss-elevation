@@ -38,12 +38,12 @@ const elevationPlugin = ({ x = 2, y = 4, ...globalSettings } = {}) =>
 
             const shadows = generateShadows({
               size,
+              ...settings,
               lightSource,
               tintShadows,
               shadowColorCP,
-              ...settings,
             });
-            console.log(shadows);
+
             return {
               [shadowColorCP]: `0deg 0% 0%`,
               boxShadow: shadows.join(", "),
