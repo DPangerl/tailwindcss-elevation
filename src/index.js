@@ -21,7 +21,8 @@ const elevationPlugin = ({ x = 2, y = 4, ...globalSettings } = {}) =>
   plugin(
     function ({ matchComponents, theme }) {
       const tintShadows = globalSettings.tintShadows ?? true;
-      const shadowColorCP = `--tw-elevation-color`;
+      const shadowColorCP =
+        globalSettings.shadowColorCP ?? `--tw-elevation-color`;
       const oomph = globalSettings.oomph ?? 0.5;
       const crispy = globalSettings.crispy ?? 0.5;
       const resolution = globalSettings.resolution ?? 0.5;
