@@ -8,7 +8,7 @@ It's heavily inspired by this blog post [Designing Beautiful Shadows in CSS](htt
 Install the plugin from npm:
 
 ```bash
-npm install @dp/tailwindcss-elevation
+npm install -D @dp/tailwindcss-elevation
 ```
 
 Then add the plugin to your tailwind.config.js file. 
@@ -22,7 +22,7 @@ module.exports = {
     },
   },
 
-  plugins: [require("@pd/tailwindcss-elevation")(config)],
+  plugins: [require("@dp/tailwindcss-elevation")(config)],
 };
 ```
 
