@@ -1,7 +1,7 @@
 {
   "name": "@dp/tailwindcss-elevation",
   "version": "0.0.1",
-  "description": "",
+  "description": "A tailwind plugin that provides beautiful shadows to elevate your components. It's heavily inspired by this blog post [Designing Beautiful Shadows in CSS](https://www.joshwcomeau.com/css/designing-shadows/) by Josh Comeau and based on his awesome [Shadow palette generator](https://www.joshwcomeau.com/shadow-palette/).",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   "peerDependencies": {
     "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
   },
-  "keywords": [],
+  "keywords": ["tailwindcss", "plugin"],
   "author": "Daniel Pangerl",
   "license": "MIT",
   "devDependencies": {
@@ -21,5 +21,13 @@
   },
   "dependencies": {
     "tinycolor2": "^1.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPangerl/tailwindcss-elevation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DPangerl/tailwindcss-elevation/issues"
+  },
+  "homepage": "https://github.com/DPangerl/tailwindcss-elevation#readme"
 }
