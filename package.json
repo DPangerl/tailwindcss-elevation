@@ -1,6 +1,6 @@
 {
   "name": "@dp/tailwindcss-elevation",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A tailwind plugin that provides beautiful shadows to elevate your components. It's heavily inspired by this blog post [Designing Beautiful Shadows in CSS](https://www.joshwcomeau.com/css/designing-shadows/) by Josh Comeau and based on his awesome [Shadow palette generator](https://www.joshwcomeau.com/shadow-palette/).",
   "main": "src/index.js",
   "types": "src/index.d.ts",
